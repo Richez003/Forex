@@ -28,7 +28,10 @@
     gap: 5rem;
 }
 
-.social-icon svg:hover {}
+.social-icon svg:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
 
 .social-icon>a {
     gap: 10rem;
