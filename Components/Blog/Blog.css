@@ -1,0 +1,15 @@
+.b-container {
+    z-index: 1;
+    width: 10%;
+    position: fixed;
+}
+
+.b-wrapper {
+    background: white;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.Blog-p span {
+    font-size: 4rem;
+}
