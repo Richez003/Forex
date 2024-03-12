@@ -3,20 +3,16 @@ import {Swiper, SwiperSlide, useSwiper} from 'swiper/react';
 import 'swiper/css'
 import data from "../../src/utils/slider.json";
 import { sliderSettings } from '../../src/utils/common';
-import {useHistory} from "react-router-dom"
 
-export default function Cards ({id}){
-    const history = useHistory();
-
-    const navigate = () => history.push("../Blog/Blog.jsx") 
-        return (
-      <>
+const Cards = () => {
+  return (
+<>
       <Swiper {...sliderSettings} className='swipper'>
               <SliderButton/>
               {
             data.map((card, i)=>(
               <SwiperSlide key={i}>
-                  <div className=" flexColStart r-card" onClick={navigate}>
+                  <div className=" flexColStart r-card">
                       <img src={card.image} alt="home" flexCenter />
                       <span className="secondaryText r-price">
                           <span style={{color: "orange"}}>$</span>
@@ -30,9 +26,10 @@ export default function Cards ({id}){
               }
           </Swiper>
       </>
-        )
-      }
+  )
+}
 
+export default Cards
 
 const SliderButton = ()=>{
     const swiper = useSwiper();
