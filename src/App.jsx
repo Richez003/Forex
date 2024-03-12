@@ -18,7 +18,6 @@ function App() {
       </div>
    <Residencies/>
    <Value/>
-   <Contact/>
    <GetStarted/>
    <Footer/>
     </div>

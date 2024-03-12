@@ -22,3 +22,20 @@
     box-shadow: var(--shadow);
     border-radius: 10px;
 }
+
+.social-icon svg {
+    fill: white;
+    gap: 5rem;
+}
+
+.social-icon svg:hover {}
+
+.social-icon>a {
+    gap: 10rem;
+    padding: 2rem;
+}
+
+.social-icon> {
+    gap: 10rem;
+    padding: 2rem;
+}
