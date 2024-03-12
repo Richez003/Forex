@@ -1,0 +1,55 @@
+[{
+        "name": "Mastering Forex",
+        "price": "0",
+        "detail": "Unveiling strategies for success",
+        "image": "./f3.png"
+    },
+    {
+        "name": "Navigating The Forex Market",
+        "price": "0",
+        "detail": "A comprehensive guide",
+        "image": "./f1.png"
+    },
+    {
+        "name": "Unlocking Profit Potential",
+        "price": "0",
+        "detail": "Your forex trading blueprint",
+        "image": "./hero1.png"
+    },
+    {
+        "name": "Forex Fundamentals",
+        "price": "0",
+        "detail": "Building blocks for trading triumph",
+        "image": "./f4.jpg"
+    },
+    {
+        "name": "Demystifying Forex",
+        "price": "0",
+        "detail": "Tips and tactics for traders",
+        "image": "./f5.jpg"
+    },
+    {
+        "name": "Strategies For Forex Maneuvers",
+        "price": "0",
+        "detail": "Boosting your trading game",
+        "image": "./ts.jpg"
+    },
+    {
+        "name": "Charting Your Course",
+        "price": "0",
+        "detail": "A practical guide to forex excellence",
+        "image": "./f6.jpg"
+    },
+    {
+        "name": "Forex Mastery Unleashed",
+        "price": "0",
+        "detail": "Insider tips for trading triumph",
+        "image": "./f7.jpg"
+    },
+    {
+        "name": "Forex Tactics",
+        "price": "0",
+        "detail": "Proven Tactics For Profitable Forex Trading",
+        "image": "./f8.jpg"
+    }
+]
