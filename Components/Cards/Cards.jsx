@@ -9,7 +9,7 @@ const Cards = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const onClick = (id) => {
-    navigate(`/residencies/${id}`);
+    navigate(id);
   };
   return (
     <>
@@ -22,7 +22,7 @@ const Cards = () => {
                 src={card.image}
                 alt="home"
                 flexCenter
-                onClick={() => onClick(i)}
+                onClick={() => onClick(card.link)}
               />
               <span className="secondaryText r-price">
                 <span style={{ color: "orange" }}>$</span>
