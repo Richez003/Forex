@@ -3,15 +3,13 @@ import React from "react";
 const Blog2 = () => {
   return (
     <div className="flexCenter b-wrapper">
-      <div className="flexCenter B-header">
-      </div>
+  
       <div className="flexColCenter b-container">
-        <span className="Blog-p">
           <h2>
      Navigating the Forex Market: A Comprehensive Guide* 
 
           </h2>
-     <p>
+     <span>
 
 The foreign exchange market, commonly known as Forex, is a global decentralized marketplace where currencies are traded. With a daily trading volume exceeding $6 trillion, it stands as the largest financial market globally. Navigating the complexities of Forex requires a solid understanding of its mechanisms, strategies, and risk management. This comprehensive guide aims to equip both beginners and experienced traders with the knowledge needed to navigate the Forex market effectively.
 <br/>
@@ -127,8 +125,7 @@ Conclusion
 </h4>
 In conclusion, navigating the Forex market successfully demands a combination of knowledge, strategy, and discipline. Understanding the basics, developing a robust trading strategy, and utilizing the right tools are foundational elements. Risk management and psychological resilience are equally critical for traders aiming for sustained success. By avoiding common pitfalls and continuously learning, individuals can enhance their abilities to navigate the complexities of the Forex market and capitalize on opportunities within this dynamic financial landscape.
 
-     </p>
-        </span>
+     </span>
       </div>
     </div>
 )

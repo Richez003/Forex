@@ -6,14 +6,11 @@ import "./Blog.css"
 const Blog = () => {
   return (
       <div className="flexCenter b-wrapper">
-        <div className="flexCenter B-header">
-        </div>
         <div className="flexColCenter b-container">
-          <span className="Blog-p">
             <h2>
             Mastering Forex: Unveiling Strategies for Success* 
             </h2>
-            <p>
+    <span>
 
 Foreign exchange (Forex) trading is a dynamic and potentially lucrative market that attracts individuals and institutions alike. However, success in the Forex market requires more than just luck; it demands a deep understanding of the market, disciplined strategies, and the ability to adapt to ever-changing conditions. In this article, we will explore key strategies that can aid traders in mastering Forex and achieving sustainable success.
 <br/>
@@ -72,10 +69,9 @@ Adaptability is the key to thriving in the ever-changing Forex landscape. Trader
   Conclusion
 </h4>
 In conclusion, mastering Forex requires a combination of education, disciplined strategies, risk management, and psychological resilience. By building a strong foundation, employing effective analysis techniques, and maintaining a disciplined approach, traders can navigate the complexities of the Forex market and increase their chances of success in the long run.
-            </p>
-          </span>
+            </span>
+          </div>
         </div>
-      </div>
   )
 }
 
