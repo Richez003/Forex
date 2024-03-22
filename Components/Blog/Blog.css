@@ -1,15 +1,22 @@
-.b-container {
-    z-index: 1;
-    width: 10%;
-    position: fixed;
+.Blog-p>h2 {
+    text-align: center;
+    margin: 1rem;
+    /* justify-content: center; */
 }
 
-.b-wrapper {
+.Blog-p>p {
+    justify-content: center;
+    margin: 2rem
+}
+
+
+/* .b-wrapper {
     background: white;
     overflow: hidden;
     z-index: 1;
-}
+} */
 
-.Blog-p span {
+
+/* .Blog-p span {
     font-size: 4rem;
-}
+} */

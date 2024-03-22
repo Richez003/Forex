@@ -12,7 +12,7 @@ const Landing = () => {
     <div className="Landing">
     <div className='App'>
       <div className="white-gradient" />
-      <Header />
+      
       <Hero />
     </div>
     <Residencies/>
