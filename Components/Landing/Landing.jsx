@@ -18,7 +18,6 @@ const Landing = () => {
     <Residencies/>
     <Value />
     <GetStarted />
-    <Footer />
   </div>
   )
 }

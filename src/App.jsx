@@ -11,12 +11,12 @@ import Blog5 from "../Components/Blog/Blog5";
 import Blog6 from "../Components/Blog/Blog6";
 import Blog7 from "../Components/Blog/Blog7";
 import Blog8 from "../Components/Blog/Blog8";
+import Footer from "../Components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
-
       <Routes>
       <Route path = "/" element={<Landing/>}/>
         <Route path="residencies/blog/1" element={<Blog />} />
@@ -29,6 +29,7 @@ function App() {
         <Route path="residencies/blog/8" element={<Blog7 />} />
         <Route path="residencies/blog/9" element={<Blog8 />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

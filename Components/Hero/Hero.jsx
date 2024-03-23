@@ -9,9 +9,11 @@ const Hero = () => {
 <div className="flexColStart hero-left">
 <div className="hero-title">
   <div className="orange-circle" />
-  <h1>
-    Discover The Secret  <br/> Behind Internet Wealth
-  </h1>
+  <h1>LIGHT HOUSE TECHNOLOGY</h1>
+
+  <h2>
+    Discover The Secret Behind Internet Wealth
+  </h2>
 </div>
 <div className=" flexColStart hero-des">
   <span className='secondaryText' >Explore the hidden wealth in the internet  </span>
