@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../Header/Header"
+import logo2
 import "../Header/Header.css"
 import "./Blog.css"
 
@@ -7,14 +7,14 @@ const Blog = () => {
   return (
       <div className="flexCenter b-wrapper">
         <div className="flexColCenter b-container">
-          <img src='./f3.jpg' alt='' />
+          <img src='./Logo2.png' alt=''/>
+    <img src="./Logo2.jpg" alt="logo" />
 
             <h2>
             Mastering Forex: Unveiling Strategies for Success
             </h2>
 
     <span>
-
 Foreign exchange (Forex) trading is a dynamic and potentially lucrative market that attracts individuals and institutions alike. However, success in the Forex market requires more than just luck; it demands a deep understanding of the market, disciplined strategies, and the ability to adapt to ever-changing conditions. In this article, we will explore key strategies that can aid traders in mastering Forex and achieving sustainable success.
 <br/>
 <br/>

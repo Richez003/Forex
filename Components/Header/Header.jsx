@@ -29,8 +29,8 @@ return {right: !menuOpen && "-100%"}
     >
         <a href="/">Home</a>
         <a href="#about">Our Value</a>
-        <a href="#getStart">Contact </a>
         <a href="#residencies">Blog</a>
+        <a href="#getStart">Contact </a>
     </div>
     </OutsideClickHandler>
     

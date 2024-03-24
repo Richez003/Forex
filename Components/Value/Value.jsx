@@ -5,7 +5,6 @@ import {
     AccordionItemHeading,
     AccordionItemButton,
     AccordionItemPanel,
-    AccordionItemState
 } from 'react-accessible-accordion'
 import "react-accessible-accordion/dist/fancy-example.css";
 import {MdOutlineArrowDropDown} from 'react-icons/md'
@@ -18,11 +17,9 @@ const Value = () => {
  id="about"
  >
   <div className="innerWidth paddings flexCenter v-container">
-
     <div className="flexColCenter v-right">
       <span className='primaryText'>Value We Give</span>
-      <span className='secondaryText'>We Are always happy to help by providing the best resource for you when is it comes to forex
-        
+      <span className='secondaryText'>We Are always happy to help by providing the best resource for you when is it comes to forex        
         we believe information is always the key
       </span>
       <Accordion
@@ -34,7 +31,6 @@ const Value = () => {
   return(
 <AccordionItem className='accordionItem'key={i} uuid={i}>
 <AccordionItemHeading>
-
   <AccordionItemButton className='flexStart accordionButton'>
     <div className="flexCenter icon">{item.icon}</div>
     <span className="primary">
@@ -50,13 +46,10 @@ const Value = () => {
     {item.detail}
   </p>
 </AccordionItemPanel>
-
 </AccordionItem>
-
   );
   })}
       </Accordion>
-      
     </div>
   </div>
  </section>
