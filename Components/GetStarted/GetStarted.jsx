@@ -9,7 +9,8 @@ import { BsFacebook } from "react-icons/bs";
 
 const GetStarted = () => {
   return (
-  <section className="g-wrapper">
+  <section className="g-wrapper"
+  id="getStart">
     <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
             <span className='primaryText'>Get Started With Light House Technologies</span>

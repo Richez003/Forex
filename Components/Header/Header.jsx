@@ -28,9 +28,9 @@ return {right: !menuOpen && "-100%"}
     style={getMenuStyles(menuOpen)}
     >
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="">Contact </a>
-        <a href="../Blog">Blog</a>
+        <a href="#about">Our Value</a>
+        <a href="#getStart">Contact </a>
+        <a href="#residencies">Blog</a>
     </div>
     </OutsideClickHandler>
     
