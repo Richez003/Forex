@@ -5,8 +5,11 @@ const Footer = () => {
 <section className="f-wrapper">
   <div className="paddings innerWidth flexCenter f-container">
     <div className="flexColStart f-left">
-      <img src='./logo2.png' alt='' width={120}/>
-      <span className="secondaryTextt">
+      <span className="f-logo">
+      <img src='./Logo1.png' alt='' width={120}/>
+        <h3>LIGHT HOUSE TECHNOLOGIES</h3>
+      </span>
+      <span className="secondaryText">
           Our vision is give right knowledge on making <br/>money online
       </span>
     </div>

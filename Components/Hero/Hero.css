@@ -20,6 +20,7 @@
 
 .hero-title {
     position: relative;
+    width: 100%;
     z-index: 1;
 }
 
@@ -37,7 +38,7 @@
 .hero-title>h1 {
     font-weight: 600;
     font-size: 3rem;
-    line-height: 4rem;
+    line-height: 3rem;
     margin: 1rem;
 }
 

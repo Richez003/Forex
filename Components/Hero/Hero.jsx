@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import {HiLocationMarker} from "react-icons/hi"
+import {motion} from "framer-motion"
 import CountUp from "react-countUp"
 const Hero = () => {
   return (
@@ -9,7 +10,11 @@ const Hero = () => {
 <div className="flexColStart hero-left">
 <div className="hero-title">
   <div className="orange-circle" />
-  <h1>LIGHT HOUSE TECHNOLOGY</h1>
+  <motion.h1
+  initial= {{y: "2rem", opacity: 0}}
+  animate = {{y: 0, opacity: 1}}
+  transition={ {duration: 3, type: "spring"}}
+  >LIGHT HOUSE TECHNOLOGY</motion.h1>
 
   <h2>
     Discover The Secret Behind Internet Wealth
