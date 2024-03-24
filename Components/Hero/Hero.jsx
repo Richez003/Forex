@@ -14,7 +14,7 @@ const Hero = () => {
   initial= {{y: "2rem", opacity: 0}}
   animate = {{y: 0, opacity: 1}}
   transition={ {duration: 3, type: "spring"}}
-  >LIGHT HOUSE TECHNOLOGY</motion.h1>
+  >LIGHT HOUSE  <br/>TECHNOLOGY</motion.h1>
 
   <h2>
     Discover The Secret Behind Internet Wealth

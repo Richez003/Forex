@@ -17,7 +17,7 @@ return {right: !menuOpen && "-100%"}
 <div className=" flexCenter innerWidth h-container">
     <span className='logo'>
     <img src="./Logo1.png" alt="logo" width={100}/>
-    <h2>L H T</h2>
+    <h2>L. H. T.</h2>
     </span>
     <OutsideClickHandler
     onOutsideClick={()=>{
@@ -31,9 +31,6 @@ return {right: !menuOpen && "-100%"}
         <a href="/">About</a>
         <a href="">Contact </a>
         <a href="../Blog">Blog</a>
-        <button className='button'>
-        <a href="">Contact</a>
-        </button>
     </div>
     </OutsideClickHandler>
     

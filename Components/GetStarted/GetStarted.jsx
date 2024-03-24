@@ -12,7 +12,7 @@ const GetStarted = () => {
   <section className="g-wrapper">
     <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
-            <span className='primaryText'>Get Started With <br/>Light House Technologies</span>
+            <span className='primaryText'>Get Started With Light House Technologies</span>
             <span className='secondaryText'>Speak with Us if you have any questions</span>
             <div className="button">
               Get Started
